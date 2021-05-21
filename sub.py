@@ -30,10 +30,9 @@ def subs(domain):
 
         print("Domain is Down !!")
     else:
-
+        f = open(f"{Link}.txt","a")
         for i in domains:
             print(i)
-            f = open("Subs.txt","a")
             f.write(i)
     
         print("<========= Check \"Subs.txt\" File. =========>")
