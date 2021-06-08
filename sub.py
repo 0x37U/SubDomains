@@ -25,7 +25,7 @@ if "https://" or "http://" or "www." in Link:
 
 def subs(domain):
 
-    url = f"https://sonar.omnisint.io/reverse/{domain}"
+    url = f"https://sonar.omnisint.io/subdomains/{domain}"
     Data = get(url,timeout=5).json()
 
     if "null" in Data:
