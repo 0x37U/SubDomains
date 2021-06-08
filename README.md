@@ -10,4 +10,4 @@ $ python sub.py
  - Put Target Link
  - Go to Sub.txt
 
-![](./img.png)
+![](./pic.png)
