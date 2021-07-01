@@ -36,7 +36,7 @@ def subs(domain):
         f = open(f"{Link}.txt","a")
         for i in Data:
             print(Fore.LIGHTGREEN_EX+i)
-            f.write(i)
+            f.write(i+"\n")
     
         print(Back.GREEN+f"<========= Check \"{domain}.txt\" File. =========>")
 subs(Link)
